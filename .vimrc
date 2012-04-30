@@ -90,6 +90,9 @@ map <F6> :setlocal nonumber!<CR>
 "======================================================================
 autocmd! BufNewFile * silent! or ~/.vim/templates/%:e.tpl
 
+" create a file in ftplugin/text.vim for specific settings
+autocmd BufNewFile, BufRead *.text,*.txt set ft=text
+
 "======================================================================
 " PYTHON SPECIFIC SETTINGS                                          {{{
 "======================================================================
