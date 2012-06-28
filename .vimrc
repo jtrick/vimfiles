@@ -1,9 +1,9 @@
 "======================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.5 - 20120426 13:13 EST
+" Version: 1.6 | 20120628
 " Author: Derek Ackley
-" Homepage: http://www.nykcstudios.com
+" Twitter: @nykc77
 " File Location: ~/.vimrc
 "======================================================================
 
@@ -50,6 +50,7 @@ set nocindent
 set nowrap              " do not wrap line
 set shiftround          " round indent to multiple of 'shiftwidth'
 set shiftwidth=2        " match shifting to indenting
+set smartindent
 set softtabstop=2       " indent two spaces by default
 " set spell              " turn on spell check
 set spellsuggest=5      " limit spell suggest to top 5 words
