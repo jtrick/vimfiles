@@ -1,7 +1,7 @@
 "======================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.6 | 20120628
+" Version: 1.6.01 | 20120719
 " Author: Derek Ackley
 " Twitter: @nykc77
 " File Location: ~/.vimrc
@@ -19,7 +19,7 @@ set nobackup            " do not make backups
 set noswapfile          " noswapfile
 
 "-- General & UI Settings ---------------------------------------------
-colorscheme desert      " set colorscheme
+colorscheme herald      " set colorscheme
 
 "set cursorcolumn       " highlight the current column
 "set cursorline         " highlight current line
