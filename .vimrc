@@ -1,7 +1,7 @@
 "======================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.6.01 | 20120719
+" Version: 1.6.02 | 20120912
 " Author: Derek Ackley
 " Twitter: @nykc77
 " File Location: ~/.vimrc
@@ -39,7 +39,7 @@ set viminfo='20,\"100,:20,%,n~/.viminfo"
 "-- Searching ---------------------------------------------------------
 set ignorecase          " case insensitive searching by default
 set incsearch           " search as I type
-set nohls               " remove highlights
+set hlsearch            " highlight search results
 set smartcase           " case insensitive if I use capital letter
 set wrapscan            " wrap around file when searching
 
