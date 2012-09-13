@@ -3,5 +3,6 @@ My .vimrc file - updated as I add new configs
 # Herald.vim colorscheme, placed in ~/.vim/colors directory
 # http://www.h3rald.com/articles/herald-vim-color-scheme/
 
-Version: 1.6.01 | 20120716 - changed colorscheme to Herald
+Version: 1.6.03 | 20120913 - created mapping to toggle hlsearch
 Version: 1.6.02 | 20120912 - added search highlighting
+Version: 1.6.01 | 20120716 - changed colorscheme to Herald

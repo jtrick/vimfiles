@@ -1,7 +1,7 @@
 "======================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.6.02 | 20120912
+" Version: 1.6.03 | 20120913
 " Author: Derek Ackley
 " Twitter: @nykc77
 " File Location: ~/.vimrc
@@ -39,7 +39,7 @@ set viminfo='20,\"100,:20,%,n~/.viminfo"
 "-- Searching ---------------------------------------------------------
 set ignorecase          " case insensitive searching by default
 set incsearch           " search as I type
-set hlsearch            " highlight search results
+set nohlsearch          " highlight search results
 set smartcase           " case insensitive if I use capital letter
 set wrapscan            " wrap around file when searching
 
@@ -77,6 +77,7 @@ set list listchars=trail:_
 " \ww: toggle wrap
 " <F4>: toggle spell check
 " <F6>: toggle no linenumbers
+" <C-N>: toggle hlsearch
 "
 "======================================================================
 nmap <leader>l :set list!<CR>
@@ -85,6 +86,7 @@ nmap <leader>ww :set wrap!<CR>
 
 map <F4> :setlocal spell! spelllang=en_us<CR>
 map <F6> :setlocal nonumber!<CR>
+map <silent> <C-N> :se invhlsearch<CR>
 
 "======================================================================
 " TEMPLATES                                                         {{{
