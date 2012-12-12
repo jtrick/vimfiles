@@ -1,7 +1,7 @@
 "======================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.7.00 | 2012-12-11
+" Version: 1.7.01 | 2012-12-12
 " Author: Derek Ackley
 " Twitter: @nykc77
 " File Location: ~/.vimrc
@@ -73,7 +73,8 @@ set list listchars=trail:_
 " MAPPINGS
 "
 " \l: toggle set list
-" \md: markdown to html and save as .html
+" \md: markdown to html
+" \mds: markdown to html and save as .html
 " \rw: remove trailing whitespace
 " \ww: toggle wrap
 " <F4>: toggle spell check
@@ -82,7 +83,8 @@ set list listchars=trail:_
 "
 "======================================================================
 nmap <leader>l :set list!<cr>
-nmap <leader>md :%! /usr/bin/markdown --html4tags <cr>:saveas %.html<cr>
+nmap <leader>md :%! /usr/bin/markdown --html4tags <cr>
+nmap <leader>mds :%! /usr/bin/markdown --html4tags <cr>:saveas %:r.html<cr>
 nmap <leader>rw :%s/\s\+$//e
 nmap <leader>ww :set wrap!<cr>
 
