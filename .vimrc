@@ -1,7 +1,7 @@
 "======================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.7.01 | 2012-12-12
+" Version: 1.8.01 | 2013-02-02
 " Author: Derek Ackley
 " Twitter: @nykc77
 " File Location: ~/.vimrc
