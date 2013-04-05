@@ -11,7 +11,6 @@
 set nocompatible
 set background=dark
 
-execute pathogen#infect()
 filetype plugin indent on
 
 "-- Files & Directories -----------------------------------------------------
