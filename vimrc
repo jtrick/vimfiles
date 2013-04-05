@@ -1,7 +1,7 @@
 "============================================================================
 " VIM CONFIGURATION FILE
 "
-" Version: 1.9.00 | 2013-04-04
+" Version: 1.9.01 | 2013-04-04
 " Author: Derek Ackley
 " Twitter: @nykc77
 " File Location: ~/.vimrc
@@ -11,6 +11,7 @@
 set nocompatible
 set background=dark
 
+execute pathogen#infect()
 filetype plugin indent on
 
 "-- Files & Directories -----------------------------------------------------
@@ -18,7 +19,7 @@ set nobackup            " do not make backups
 set noswapfile          " no swapfile
 
 "-- General & UI Settings ---------------------------------------------------
-"colorscheme herald     " set the colorscheme
+"colorscheme herald      " set the colorscheme
 "set cursorcolumn       " highlights the current column
 "set cursorline         " highlights the current line
 

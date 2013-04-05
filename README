@@ -2,9 +2,10 @@ My .vimrc file - updated as I add new configs
 
 # Herald.vim colorscheme, placed in ~/.vim/colors directory
 # http://www.h3rald.com/articles/herald-vim-color-scheme/
-#
+
 # if you do not have a ~/.vim/colors/ directory you will need to create one
 
+Version: 1.9.01 | 2013-04-04 : added pathogen.vim plugin
 Version: 1.9.00 | 2013-04-04 : minor updates and formatting
 Version: 1.8.01 | 2013-02-03 : added a ftplugin directory and text.vim file
 Version: 1.8.00 | 2013-02-02 : added colors/ directory
