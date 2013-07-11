@@ -111,3 +111,4 @@ autocmd BufRead, BufNewFile *.py set foldmethod=indent
 autocmd BufRead, BufNewFile *.py set syntax=python
 autocmd BufRead, BufNewFile *.py set smartindent
 autocmd BufRead, BufNewFile *.py cinwords=class,def,elif,else,except,finally,for,if,try,while
+
